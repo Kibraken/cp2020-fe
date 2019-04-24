@@ -1,0 +1,24 @@
+<aside class="uk-light sidebar">
+  <div class="sidebar-wrap">
+    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+      <li>
+        <a routerLink="/admin"> Home</a>
+      </li>
+      <li class="uk-nav-divider"></li>
+    </ul>
+
+    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+      <li class="uk-nav-header">Compendum</li>
+
+      <li routerLinkActive="uk-active">
+        <a routerLink="weapons"> Weapons</a>
+      </li>
+    </ul>
+  </div>
+</aside>
+
+<div class="admin-content">
+  <div class="uk-container uk-container-large uk-margin-small-top">
+    <router-outlet></router-outlet>
+  </div>
+</div>
